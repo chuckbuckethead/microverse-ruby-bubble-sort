@@ -2,7 +2,7 @@ def bubble_sort(arr)
   arr_length = arr.length
   last_element_i = arr_length - 1
 
-  arr.each_with_index do |n, i|
+  arr.each_with_index do |_, i|
     left_i = i
     right_i = i + 1
 
