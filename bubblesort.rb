@@ -1,11 +1,13 @@
 def bubble_sort(arr)
   arr_length = arr.length
-  for i in 0..(arr_length - 1) do
+  last_element_i = arr_length - 1
+
+  for i in 0..last_element_i do
     left_i = i
     right_i = i + 1
 
-    if(right_i > (arr_length - 1))
-      right_i = arr_length - 1
+    if(right_i > last_element_i)
+      right_i = last_element_i
     end
 
     left = arr[left_i]
