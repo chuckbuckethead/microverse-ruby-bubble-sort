@@ -14,11 +14,10 @@ def bubble_sort(arr)
       left = arr[left_i]
       right = arr[right_i]
 
-      if left > right
-        arr[left_i] = right
-        arr[right_i] = left
-        swapped = true
-      end
+      next unless left > right
+      arr[left_i] = right
+      arr[right_i] = left
+      swapped = true
     end
 
     break unless swapped
