@@ -26,11 +26,11 @@ print "\n"
 def bubble_sort_by(str)
   i = 0
 
-  while i < str.length - 1
-    comp = yield(str[i], str [i + 1])
+  while i < str.size - 1
+    comp = yield(str[i], str[i + 1])
 
     if comp.positive?
-      str[i], str[i + 1] = str[i + 1], str [i]
+      str[i], str[i + 1] = str[i + 1], str[i]
       i = 0
 
     else
@@ -39,9 +39,10 @@ def bubble_sort_by(str)
 
     end
   end
-  print str
+ str
 end
 
-bubble_sort_by(%w[hi hello hey idkwgh]) do |left, right|
-  left.length - right.length
-end
+
+result = (bubble_sort_by(%w[h hey hi hello hiya]) { |left, right| left.length - right.length })
+
+p result
