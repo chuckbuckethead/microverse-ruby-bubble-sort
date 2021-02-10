@@ -3,7 +3,7 @@
 
 ## RUBY Bubble Sort exercise
 
-Bubble sor exercise with bubble sort by addition
+Bubble sort exercise with bubble sort by addition
 
 
 ## Built With
@@ -21,7 +21,7 @@ Bubble sor exercise with bubble sort by addition
 * On Windows:
 Have Ruby installed
 * Mac & Linux:
-Lastest version of Ruby installed
+Latest version of Ruby installed
 
 ### Setup
 
