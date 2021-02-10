@@ -55,7 +55,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 - Stand Up Team
 
 ## 📝 License
