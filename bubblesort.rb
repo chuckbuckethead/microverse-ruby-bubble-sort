@@ -15,6 +15,7 @@ def bubble_sort(arr)
       right = arr[right_i]
 
       next unless left > right
+      
       arr[left_i] = right
       arr[right_i] = left
       swapped = true
