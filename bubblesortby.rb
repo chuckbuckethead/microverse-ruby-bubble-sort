@@ -4,7 +4,7 @@ def bubble_sort_by(str)
   while i < str.length - 1
     comp = yield(str[i], str [i + 1])
 
-    if comp > 0
+    if comp.positive?
       str[i], str[i + 1] = str[i + 1], str [i]
       i = 0
 
@@ -17,6 +17,6 @@ def bubble_sort_by(str)
   print str
 end
 
-bubble_sort_by(%W['hi', 'hello', 'hey', 'idkwgh']) do |left, right|
+bubble_sort_by(%w['hi', 'hello', 'hey', 'idkwgh']) do |left, right|
   left.length - right.length
 end
