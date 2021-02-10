@@ -17,6 +17,6 @@ def bubble_sort_by(str)
   print str
 end
 
-bubble_sort_by(%w['hi', 'hello', 'hey', 'idkwgh']) do |left, right|
+bubble_sort_by(%w[hi hello hey idkwgh]) do |left, right|
   left.length - right.length
 end
