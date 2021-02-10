@@ -9,9 +9,7 @@ def bubble_sort(arr)
       left_i = i
       right_i = i + 1
 
-      if right_i > last_element_i
-        break
-      end
+      break if right_i > last_element_i
 
       left = arr[left_i]
       right = arr[right_i]
@@ -23,9 +21,7 @@ def bubble_sort(arr)
       end
     end
 
-    if !swapped
-      break
-    end
+    break unless swapped
   end
 
   arr
@@ -51,9 +47,9 @@ def bubble_sort_by(str)
 
     end
   end
- str
-end
 
+  str
+end
 
 result = (bubble_sort_by(%w[h hey hi hello hiya]) { |left, right| left.length - right.length })
 
